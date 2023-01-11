@@ -2,7 +2,13 @@ public class Main {
     public static void main(String[] args) {
 
         System.out.println("Hello world!");
-        Kushal.Week1.PrimeNumber.printPrime();
-        Gayatri.Week1.PrimeNumber.printPrime();
+        //Kushal
+        //Kushal.Week1.PrimeNumber.printPrime();
+
+        //Gayatri
+        //Gayatri.Week1.PrimeNumber.printPrime();
+
+        //Vijay
+        //Vijay.Week1.PrimeNumber.printPrime();
     }
 }
