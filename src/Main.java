@@ -1,14 +1,16 @@
+import Gayatri.Week1.MainGayatri;
+import Kushal.Week1.MainKushal;
+import Vijay.Week1.MainVijay;
+
 public class Main {
+
     public static void main(String[] args) {
+        MainKushal kushal = new MainKushal();
+        MainGayatri gayatri = new MainGayatri();
+        MainVijay vijay = new MainVijay();
 
-        System.out.println("Hello world!");
-        //Kushal
-        //Kushal.Week1.PrimeNumber.printPrime();
-
-        //Gayatri
-        //Gayatri.Week1.PrimeNumber.printPrime();
-
-        //Vijay
-        //Vijay.Week1.PrimeNumber.printPrime();
+        kushal.run();
+        gayatri.run();
+        vijay.run();
     }
 }
