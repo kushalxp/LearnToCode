@@ -1,7 +1,6 @@
-package Kushal.Week1;
+package Gayatri.Week1;
 
 public class PrimeNumber {
-
     public static void printPrime(){
         for(int i = 2; i < 11; i++) {
             if(isPrime(i)) {
@@ -17,5 +16,4 @@ public class PrimeNumber {
         }
         return true;
     }
-
 }
