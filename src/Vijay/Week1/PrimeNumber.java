@@ -9,7 +9,7 @@ public class PrimeNumber {
                     break;
             }
             if (i == j)
-                System.out.println(i + " is prime!");
+                System.out.println(i + " is prime!!!");
         }
     }
 }
