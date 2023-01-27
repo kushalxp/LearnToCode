@@ -8,6 +8,7 @@ public class MainVijay {
         //StarPattern3.starPattern3();
         //PyramidPattern.pyramidPattern();
         //InvertedPyramid.invertedPyramid();
-        DamruPattern.damruPattern();
+        //DamruPattern.damruPattern();
+        TwoDimArrayTransverse.twoDimArrayTransverse();
     }
 }
