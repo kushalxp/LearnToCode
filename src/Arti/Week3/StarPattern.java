@@ -4,17 +4,39 @@ package Arti.Week3;
 
 public class StarPattern {
 
-    public static void RightTrangle(){
+    public static void DiamondShapePattern(){ //kiteshape
 
-        for(int i=1; i<=4 ;i++)
+        for(int i=1; i<=3 ;i++) //row
         {
-            for(int j=1;j<=i;j++)
+            for (int j = 3; j >= i; j--) // 1st blank right downward triangle
             {
-                System.out.print("*");   
+                System.out.print(" ");
             }
-           
-         System.out.println();
-
+            for (int k=1; k<=i; k++) // 1st right triangle
+            {
+                System.out.print("*");
+            }
+            for (int k=2; k<=i; k++) // 1st right triangle
+            {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+        for(int i=1; i<=2 ;i++) //row
+        {
+            for (int j = 0; j <= i; j++) // 1st blank right triangle
+            {
+                System.out.print(" ");
+            }
+            for (int k=2; k>=i; k--) // 1st right triangle
+            {
+                System.out.print("*");
+            }
+            for (int k=2; k>=i+1; k--) // 1st right triangle
+            {
+                System.out.print("*");
+            }
+            System.out.println();
         }
         
     }

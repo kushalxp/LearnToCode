@@ -4,8 +4,10 @@ public class MainArti {
 
     public void run(){
 
-        StarPattern.RightTrangle();
-
+        StarPattern.DiamondShapePattern();
+        //PrimeNo.PrimeNo();
+        //EvenOddNo.EvenOddNo();
+        //ArrayLearning.Printarray();
     }
     
 }
