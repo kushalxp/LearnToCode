@@ -66,15 +66,15 @@ public class Pivot {
         int rightSum = 0;
         int leftSum = 0;
         for(int i=1; i<=nums.length-1 ;i++){
-            leftSum = leftSum+nums[i];
+            rightSum = rightSum+nums[i];
         }
         for(int i=0; i<nums.length-1;i++){
             System.out.println("RightSum: " + rightSum +"; LeftSum: " + leftSum);
-            if(rightSum==leftSum){
+            if(leftSum==rightSum){
                 return i;
             }else {
-                rightSum = rightSum + nums[i];
-                leftSum = leftSum - nums[i+1];
+                leftSum = leftSum + nums[i];
+                rightSum = rightSum - nums[i+1];
             }
         }
         return -1;
