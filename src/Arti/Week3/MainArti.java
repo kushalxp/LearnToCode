@@ -1,7 +1,5 @@
 package Arti.Week3;
 
-import Arti.ValidPalindrome;
-
 public class MainArti {
 
     public void run(){
@@ -12,6 +10,7 @@ public class MainArti {
         //ArrayLearning.Printarray();
          //EvenOddNo.EvenOddNo();
         ValidPalindrome.StringPalindrome();
+
 
     }
     
