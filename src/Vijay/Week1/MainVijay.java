@@ -1,7 +1,7 @@
 package Vijay.Week1;
 
 public class MainVijay {
-    public  void run() {
+    public static void main(String[] args) {
         //PrimeNumber.printPrime();
         //StarPattern1.starPattern1();
         //StarPattern2.starPattern2();
