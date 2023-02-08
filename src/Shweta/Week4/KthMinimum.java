@@ -29,16 +29,14 @@ public class KthMinimum {
     // {2,3,45,4,53,12} k=3 -> [2,3,4,5,12,45,53]
     public static int kthSmallestBF(int[] nums, int k) {
         int kthSmallest = Integer.MAX_VALUE;
+        // [2,3,4,5,12,45,53]
         Arrays.sort(nums);
-        for (int i = 0; i < nums.length; i++) {
-            if (kthSmallest >= i) {
-                kthSmallest = nums[i];
-                if (k == i) {
-                    return nums[i - 1];
-                }
+        for (int i = 0; i < nums.length ; i++) {
+            kthSmallest = (nums[i] > nums[i+1]) ?  i : i+1 ;
+            if(kthSmallest == k){
+                return nums[i];
             }
         }
         return kthSmallest;
     }
-
 }
