@@ -7,6 +7,8 @@ public class MainArti4 {
         //FizzBuzz.FizzBuzz();
 //        Pivot PI= new Pivot();
 //        PI.PivotIndex();
-        ReverseArray.ReverseArray();
+     //   ReverseArray.ReverseArray();
+       CountPrimeNo.CountPrimes();
+        //RotateImage.rotateImage();
     }
 }
