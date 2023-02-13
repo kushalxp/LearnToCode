@@ -14,15 +14,15 @@ public class Main {
         //MainVijay vijay = new MainVijay();
         //MainArti arti = new MainArti();
         //MainArti4 arti4=new MainArti4();
-        //ArtiMain5 arti5=new ArtiMain5();
-        MainArti6 arti6=new MainArti6();
+        ArtiMain5 arti5=new ArtiMain5();
+       // MainArti6 arti6=new MainArti6();
 
 
         //kushal.run();
         //gayatri.run();
         //vijay.run();
         // arti.run();
-        arti6.run();
+        arti5.run();
 
     }
 
